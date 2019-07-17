@@ -1,0 +1,452 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5963067840864712269
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5346817666433119785}
+  - component: {fileID: 5963067840864712270}
+  - component: {fileID: 688774091276087431}
+  - component: {fileID: 4348044180531404429}
+  - component: {fileID: 8013386791042547991}
+  - component: {fileID: 7838343688284855542}
+  - component: {fileID: 1023055197748015116}
+  - component: {fileID: 7586127153856934400}
+  - component: {fileID: 5609618901231453275}
+  - component: {fileID: 7699295508606207197}
+  - component: {fileID: 371042889265894779}
+  m_Layer: 0
+  m_Name: ImageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5346817666433119785
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5963067840864712269}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5963067840864712270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5963067840864712269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c5cb1506dc82e24f84ac407656bc47a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  family: 0
+  wht1: {fileID: 0}
+  wht2: {fileID: 0}
+  wht3: {fileID: 0}
+  gc1: {fileID: 0}
+  gc2: {fileID: 0}
+  gc3: {fileID: 0}
+  ac1: {fileID: 0}
+  ac2: {fileID: 0}
+  ac3: {fileID: 0}
+  wht1SkeletonSwatchHL: {fileID: 0}
+  wht2SkeletonSwatchHL: {fileID: 0}
+  wht3SkeletonSwatchHL: {fileID: 0}
+  gc1SkeletonSwatchHL: {fileID: 0}
+  gc2SkeletonSwatchHL: {fileID: 0}
+  gc3SkeletonSwatchHL: {fileID: 0}
+  ac1SkeletonSwatchHL: {fileID: 0}
+  ac2SkeletonSwatchHL: {fileID: 0}
+  ac3SkeletonSwatchHL: {fileID: 0}
+  whiteningFamily: {fileID: 21300000, guid: 7f47f1adbe3647a44af63a80f07a60b7, type: 3}
+  whiteningFamilyHL: {fileID: 21300000, guid: 5fecf353dc24d9c48a1ce1b21f8efadc, type: 3}
+  gumCareFamily: {fileID: 21300000, guid: 58840595cfd12624bbb7aa42446f107e, type: 3}
+  gumCareFamilyHL: {fileID: 21300000, guid: c1eedbb4fe428a247ba3a9fd7577eed0, type: 3}
+  advCleaningFamily: {fileID: 21300000, guid: 3817dadaeef632c47b4372f921890953, type: 3}
+  advCleaningFamilyHL: {fileID: 21300000, guid: b80e366c0d01ddc4c84b3836b6f8f0a3,
+    type: 3}
+  whtFamily: {fileID: 0}
+  gcFamily: {fileID: 0}
+  acFamily: {fileID: 0}
+  currentBristleSwatchHL: {fileID: 0}
+  familyHasChanged: 0
+  brushDisplayPanels: []
+  brushHeadDisplayPanels: []
+  activeHandleColors: []
+  activeBristleColors: []
+  activeLargeBristleHeads: []
+  activeHandle: {fileID: 0}
+  activeHandleHead: {fileID: 0}
+--- !u!114 &688774091276087431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5963067840864712269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce46087f1cd104d47ad8b92e8b7c5049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brushDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  brushHeadDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  handleColors:
+  - {fileID: 21300000, guid: 02a10000f5e630247982d129b83842c3, type: 3}
+  - {fileID: 21300000, guid: 2793251082c37374cb315def8a9488cb, type: 3}
+  - {fileID: 21300000, guid: 41653daf9d5002140bed263f3548f199, type: 3}
+  - {fileID: 21300000, guid: 2e6e38e313ba30d4b9f7f96e587a1167, type: 3}
+  - {fileID: 21300000, guid: 7ad7930e96ee37b448a2348851531554, type: 3}
+  - {fileID: 21300000, guid: 141511e29deaebf4eb41e00cad64e4bb, type: 3}
+  - {fileID: 21300000, guid: 3b812b7493e43994eab5ea7322f66bc8, type: 3}
+  - {fileID: 21300000, guid: 2d29a390505bbbc489e452c2f6cb6ce8, type: 3}
+  handleHeadColors:
+  - {fileID: 21300000, guid: a94a6cc68f36a8a4e88fc84a441533e9, type: 3}
+  - {fileID: 21300000, guid: f9fd5cf6954993c4d93ac232d3af83c7, type: 3}
+  - {fileID: 21300000, guid: f2fe09d91ef85a749974ffd69cfe0c1f, type: 3}
+  BristleHead: {fileID: 0}
+  largeBristleHeadSprites:
+  - {fileID: 21300000, guid: 99339c20a3b8ece428be3bae0a93752c, type: 3}
+  - {fileID: 21300000, guid: 5f0e6329d171ed14698b9fc31b703026, type: 3}
+  - {fileID: 21300000, guid: 0ec634926fbaaff4c9942051a0c7b857, type: 3}
+--- !u!114 &4348044180531404429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5963067840864712269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dca86eb8e4966a843bf16052e73005c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brushDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  brushHeadDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  handleColors:
+  - {fileID: 21300000, guid: d75038fd6af17cf40b8b3ea87ef82df5, type: 3}
+  - {fileID: 21300000, guid: a90318b981e753843900c1f5bcb9ac40, type: 3}
+  - {fileID: 21300000, guid: c4a9a647ee788f14993f216feb4fd574, type: 3}
+  - {fileID: 21300000, guid: b165cf67d8fb13d4180e52bd09718a49, type: 3}
+  - {fileID: 21300000, guid: 6dfef1a9b13622649bf78fc354dfbbe8, type: 3}
+  - {fileID: 21300000, guid: ddb225d2deacb97448af7e32bd9333fd, type: 3}
+  - {fileID: 21300000, guid: 9bdfbc20edba88e47a01d2899cd0dadc, type: 3}
+  - {fileID: 21300000, guid: a5dd82b96ccb04b4980e1b21780bd24e, type: 3}
+  handleHeadColors:
+  - {fileID: 21300000, guid: 595b50eedd4f55d468a61733d894d851, type: 3}
+  - {fileID: 21300000, guid: a6c1271fe23a6f0468bfe6cbe472a032, type: 3}
+  - {fileID: 21300000, guid: b1625644f0382264b9ced8efba8bb3eb, type: 3}
+  BristleHead: {fileID: 0}
+  largeBristleHeadSprites:
+  - {fileID: 21300000, guid: 8edf457cffa841e4d8632283acfa6831, type: 3}
+  - {fileID: 21300000, guid: 32700356f18e2ea4d869a959c111b371, type: 3}
+  - {fileID: 21300000, guid: 5f4aca2af09382b4197ed7eacefde425, type: 3}
+--- !u!114 &8013386791042547991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5963067840864712269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e4d97ca39c1a62469399333b866652c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brushDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  brushHeadDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  handleColors:
+  - {fileID: 21300000, guid: 0c589d4e987e67843af722958eb45f02, type: 3}
+  - {fileID: 21300000, guid: d21e35e3ff96b7c4690315087cb1d841, type: 3}
+  - {fileID: 21300000, guid: 9ac2ce751779cd443a7d394b007e1d73, type: 3}
+  - {fileID: 21300000, guid: a6dc736e97c1abf4f872f873e59de1bb, type: 3}
+  - {fileID: 21300000, guid: 50096e8a29f6ecd45984c487fd403c64, type: 3}
+  - {fileID: 21300000, guid: 6a5cdc6df3206a74db738814e8fe3092, type: 3}
+  - {fileID: 21300000, guid: b3e38f496ab1e08439e78f5bcf1135e8, type: 3}
+  - {fileID: 21300000, guid: 088651d9df171f843bf9a2aa2dee95b6, type: 3}
+  handleHeadColors:
+  - {fileID: 21300000, guid: ab579b07f715c194d99fded318184799, type: 3}
+  - {fileID: 21300000, guid: 680388a860712c64186fee27afeffba7, type: 3}
+  - {fileID: 21300000, guid: a40287aba448f9140b35adea81b5a156, type: 3}
+  BristleHead: {fileID: 0}
+  largeBristleHeadSprites:
+  - {fileID: 21300000, guid: eb77ddd5557db9b41b9f510df9db922d, type: 3}
+  - {fileID: 21300000, guid: 44385ecc954370c4180fe867bae7d1f1, type: 3}
+  - {fileID: 21300000, guid: 2d4da87edc6407843b2381c32b42b3c9, type: 3}
+--- !u!114 &7838343688284855542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5963067840864712269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18b23a4258b70334ea1b1e4702f7a461, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brushDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  brushHeadDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  handleColors:
+  - {fileID: 21300000, guid: d3fea9fcffdfebe43aea02f968c90d25, type: 3}
+  - {fileID: 21300000, guid: fa8ef0b0f1d64ef43be18918d6137812, type: 3}
+  - {fileID: 21300000, guid: 092a3cfbb5869d54eb90266f8f5018a7, type: 3}
+  - {fileID: 21300000, guid: 75a7dd128c9906245b3bde6b17dea305, type: 3}
+  - {fileID: 21300000, guid: 3c8a23d7e731ba5428c8ba770c1207a3, type: 3}
+  - {fileID: 21300000, guid: e3e23104db1938946b322807eb2c80cb, type: 3}
+  - {fileID: 21300000, guid: b66ee540601c7b9479ad5e1b9f66f45f, type: 3}
+  - {fileID: 21300000, guid: c1f0da8d23c34c340810fc7088356cd2, type: 3}
+  handleHeadColors:
+  - {fileID: 21300000, guid: 9fa70479a20a0d341a3147b9e5bee12a, type: 3}
+  - {fileID: 21300000, guid: c5dd9647a0d290041ada23687810bf02, type: 3}
+  - {fileID: 21300000, guid: 8adad6b58015c144e80ed5f402133811, type: 3}
+  BristleHead: {fileID: 0}
+  largeBristleHeadSprites:
+  - {fileID: 21300000, guid: f91651d9221a2cc4394af7a50e0dd202, type: 3}
+  - {fileID: 21300000, guid: baa3f5bd59eee2a4aa690c807fdecc25, type: 3}
+  - {fileID: 21300000, guid: 2dd3e5f2ae2cd5c4b95dcf01bdc402fd, type: 3}
+--- !u!114 &1023055197748015116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5963067840864712269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96e8cc68c5bc1dd4e86bafa1e14b317a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brushDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  brushHeadDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  handleColors:
+  - {fileID: 21300000, guid: 1cf33a29d9967fc4cb7ee1bc2517fe9b, type: 3}
+  - {fileID: 21300000, guid: d750bc6def55e4740987a7c119f91ee9, type: 3}
+  - {fileID: 21300000, guid: 74cb0a079e6f08e49b76b697f69a7306, type: 3}
+  - {fileID: 21300000, guid: f61cde5664e51e045aa9c7b6d0fa19a1, type: 3}
+  - {fileID: 21300000, guid: 89287e8737f10f9418e2df287fd5c811, type: 3}
+  - {fileID: 21300000, guid: 6a7962696b4027140a799bd36ab75732, type: 3}
+  - {fileID: 21300000, guid: 5a7047da7a70e944c9b70ef09a9751a4, type: 3}
+  - {fileID: 21300000, guid: a157ae548b3c294448efd07b820aaece, type: 3}
+  handleHeadColors:
+  - {fileID: 21300000, guid: 2fb1d210b4250354a8e790a1cf271112, type: 3}
+  - {fileID: 21300000, guid: d7911a85ac9407240bcaadcc302febea, type: 3}
+  - {fileID: 21300000, guid: 5e4e0427bbfa52f49bfcf37b53ee307a, type: 3}
+  BristleHead: {fileID: 0}
+  largeBristleHeadSprites:
+  - {fileID: 21300000, guid: 4d57eb77c97c602418425e422ecb3dc7, type: 3}
+  - {fileID: 21300000, guid: d4f04c6edb26638428d25478254a606c, type: 3}
+  - {fileID: 21300000, guid: 9c9fa9e9cd9dbff45ae79b738101a1f5, type: 3}
+--- !u!114 &7586127153856934400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5963067840864712269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e06bc7d819ba2da40baabc745179025b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brushDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  brushHeadDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  handleColors:
+  - {fileID: 21300000, guid: 7080ad30c2737de45bae0b21d09f2b63, type: 3}
+  - {fileID: 21300000, guid: ce60942c9c9646d408be19610b576482, type: 3}
+  - {fileID: 21300000, guid: 3f1c1c1f8279a2045a860fa423b671f5, type: 3}
+  - {fileID: 21300000, guid: 2b4bbc3bd5b4a6c4fa8a6f4142f3ebcc, type: 3}
+  - {fileID: 21300000, guid: 35244814a865aa347a75d63e58245772, type: 3}
+  - {fileID: 21300000, guid: b21a09c3e7bbb1d48979cc804ba7bf7b, type: 3}
+  - {fileID: 21300000, guid: e7e1128c3c695d1498291766298f4f46, type: 3}
+  - {fileID: 21300000, guid: 7e98ee26ef30db344b0b170c056fbc8d, type: 3}
+  handleHeadColors:
+  - {fileID: 21300000, guid: 94ab8caaf52f0994fa8bf41f6633340a, type: 3}
+  - {fileID: 21300000, guid: d057c947ac240554dacf36d2fce09335, type: 3}
+  - {fileID: 21300000, guid: 853e64d1c555c8b4c87eb3aed444c081, type: 3}
+  BristleHead: {fileID: 0}
+  largeBristleHeadSprites:
+  - {fileID: 21300000, guid: fc3225978ee2f6440b20a2646eb35020, type: 3}
+  - {fileID: 21300000, guid: 963d909dbb8df7f4eb49394627a73b4f, type: 3}
+  - {fileID: 21300000, guid: 734e88c678afc844fb99ff5db1bf1282, type: 3}
+--- !u!114 &5609618901231453275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5963067840864712269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c956324890d0ef147b2a642bc73e12a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brushDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  brushHeadDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  handleColors:
+  - {fileID: 21300000, guid: f276ae61b993f104d9f3cc5b7bc91193, type: 3}
+  - {fileID: 21300000, guid: e03a18124d6f9c94b918c81784599812, type: 3}
+  - {fileID: 21300000, guid: 1bc71751986a547438a4b75c395b2669, type: 3}
+  - {fileID: 21300000, guid: 90f7070bf1433c24ba4c28f9e45d992e, type: 3}
+  - {fileID: 21300000, guid: c599656ac71379243aef72282d31e58f, type: 3}
+  - {fileID: 21300000, guid: 005a8989c7113804ab51c29a85e2f104, type: 3}
+  - {fileID: 21300000, guid: f4cb4c976d2e60b4d870c48ac222fcef, type: 3}
+  - {fileID: 21300000, guid: ace0f4bfbb9098f4aa15b54b76f2c3a5, type: 3}
+  handleHeadColors:
+  - {fileID: 21300000, guid: 5da368d11f40dd54c9e65554d59ad608, type: 3}
+  - {fileID: 21300000, guid: b90af88211bb1ce4b9c3bef213820e1a, type: 3}
+  - {fileID: 21300000, guid: a4c76c9bf6e67f542a15f5e65e69701f, type: 3}
+  BristleHead: {fileID: 0}
+  largeBristleHeadSprites:
+  - {fileID: 21300000, guid: 1e5bd11c29b83a64aa0b9fd2476f963e, type: 3}
+  - {fileID: 21300000, guid: d514adc05e1583b47a27a1d6913e047d, type: 3}
+  - {fileID: 21300000, guid: ae3e1f895d05d1e41b7e770f6badd871, type: 3}
+--- !u!114 &7699295508606207197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5963067840864712269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a94b1cf8b90b2c14983c332519ab576c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brushDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  brushHeadDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  handleColors:
+  - {fileID: 21300000, guid: 657ec34cc98bc874b9374f29eb8719a4, type: 3}
+  - {fileID: 21300000, guid: 82f0bf495539a9847882ce715776aca9, type: 3}
+  - {fileID: 21300000, guid: d26e4ceb17078f2458022361a67d5cda, type: 3}
+  - {fileID: 21300000, guid: 7c7392647915e524198e20dc1571a5f2, type: 3}
+  - {fileID: 21300000, guid: 87b9efa3b95d1284cac44489f25cdd24, type: 3}
+  - {fileID: 21300000, guid: 6efa5fcc4f7c7194b9c098afb5faa0b2, type: 3}
+  - {fileID: 21300000, guid: 3b6fac3354332d9419e4557cc94e5fbc, type: 3}
+  - {fileID: 21300000, guid: 262f7a977b62e914eb5a9f4a6dad6707, type: 3}
+  handleHeadColors:
+  - {fileID: 21300000, guid: f08bfb471cfefc04cbdb500bebd26e97, type: 3}
+  - {fileID: 21300000, guid: ac6671b0b0b33244ebc715d3c94770b8, type: 3}
+  - {fileID: 21300000, guid: ef677f5b17cd249499e8f189b867b5c9, type: 3}
+  BristleHead: {fileID: 0}
+  largeBristleHeadSprites:
+  - {fileID: 21300000, guid: 3d1dc1ca0ae191c479a12899602871ce, type: 3}
+  - {fileID: 21300000, guid: 4bc13ce1ea4424647be0533b7548d6d7, type: 3}
+  - {fileID: 21300000, guid: 6e426d794f0a3ca4eb26f84a31a3aff3, type: 3}
+--- !u!114 &371042889265894779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5963067840864712269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e3972e5532602b45ac9f12913da3ed9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  brushDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  brushHeadDisplayPanels:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  handleColors:
+  - {fileID: 21300000, guid: b6ffc843f6be02e47af21ffd56433eb7, type: 3}
+  - {fileID: 21300000, guid: debb09e7bf6078e459ac6d19b00340ad, type: 3}
+  - {fileID: 21300000, guid: 9ea08d9baf910e244b24553ed6d20b0b, type: 3}
+  - {fileID: 21300000, guid: e30b2e45dfb80c147ab55ac3f44fa066, type: 3}
+  - {fileID: 21300000, guid: 98e4496ca54ae4f4bb1267d4b5927829, type: 3}
+  - {fileID: 21300000, guid: 460956357726e0248a190a767cf59767, type: 3}
+  - {fileID: 21300000, guid: 8d8f62728a66338439c0caa4a1d33e4c, type: 3}
+  - {fileID: 21300000, guid: 9df791ceb40adfa47850be0ab800bca1, type: 3}
+  handleHeadColors:
+  - {fileID: 21300000, guid: 3b460c5b7a5a7ed45bfbbe799791928f, type: 3}
+  - {fileID: 21300000, guid: fd9469329687fc04b9d999f82794dda5, type: 3}
+  - {fileID: 21300000, guid: 72639cd019df540459a954bf23883a5b, type: 3}
+  BristleHead: {fileID: 0}
+  largeBristleHeadSprites:
+  - {fileID: 21300000, guid: eb2faa7aec11b294d8f5a2f2bfcee86b, type: 3}
+  - {fileID: 21300000, guid: 7c538db218f002e4286980567db47c7e, type: 3}
+  - {fileID: 21300000, guid: f388678fb14cfb64e94d16fb826a0612, type: 3}
